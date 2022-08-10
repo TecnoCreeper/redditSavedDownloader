@@ -10,7 +10,9 @@ Script to export your saved submissions AND comments
 - deduplication WIP
 
 # Usage
-Create a script at https://old.reddit.com/prefs/apps/ and edit rs.py with your credentials    
+Create a script at https://old.reddit.com/prefs/apps/    
+Download rs.py    
+Edit rs.py with your credentials    
 To run the script open a command prompt and cd to the directory where rs.py is, then type
 
 py -3 rs.py
