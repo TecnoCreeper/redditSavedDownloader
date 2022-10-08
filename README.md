@@ -1,21 +1,21 @@
 # redditSavedDownloader
 
-Script to export your saved submissions AND comments
+Script to export your saved submissions AND comments to a .txt file
 
 # Notes
 - "ids.txt", "comments.txt" and "submissions.txt" will be created in the same directory as this script
-- "comments.txt" will contin all saved comments
-- "submissions.txt" will contin all saved submissions
-- if you want to re-run the program after saving more submission/comments, delete/move to another directory "ids.txt", "submissions.txt" and "comments.txt" and select y, not deleting the files will result in duplicates
-- deduplication WIP
+- "comments.txt" will contain all saved comments
+- "submissions.txt" will contain all saved submissions
 
 # Usage
-Create a script at https://old.reddit.com/prefs/apps/    
-Download rs.py    
-Edit rs.py with your credentials    
-To run the script open a command prompt and cd to the directory where rs.py is, then type
+- Create a script at https://old.reddit.com/prefs/apps/    
+- Download/Copy rs.py and place it in a directory (it will create files in there)    
+- Edit rs.py with your credentials at the top of the script    
+- To run the script open a command prompt and cd to the directory where rs.py is, type
 
-py -3 rs.py
+`python rs.py`
 
-and press enter.    
-If it's the first time you run the script select y, read the notes above.
+- and press enter.
+
+# Important
+If you decide to re-run the script it will only add posts and comments to "submission.txt" and "comments.txt" that AREN'T IN "ids.txt", so either you delete/move to another directory all 3 .txt or you leave all 3 there.
